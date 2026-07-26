@@ -1,0 +1,52 @@
+% ---- Table 1 (main body, tab:delta-gdp-conv) ----
+\begin{tabular}{c c c}
+\toprule
+$q$  & Empirical $\widehat{\Delta}$ & $\sqrt{2B}$-GDP \\
+\midrule
+$0.01$   & $0.003533$ & $0.1775$ \\
+$0.1$   & $0.0145$ & $0.5612$ \\
+$0.199$   & $0.02584$ & $0.7897$ \\
+$0.801$   & $0.01461$ & $1.416$ \\
+$0.95$   & $0.004735$ & $1.454$ \\
+\bottomrule
+\end{tabular}
+
+% ---- Table 2 (tab:plrv-moments) ----
+\begin{tabular}{c c cc cc cc}
+\toprule
+ & & \multicolumn{2}{c}{Theoretical} & \multicolumn{2}{c}{Empirical under $P$} & \multicolumn{2}{c}{Empirical under $Q$} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+$q$ & $B$ & Mean & Variance & Mean & Variance & Mean & Variance \\
+\midrule
+$0.01$ & $0.01575$ & $\pm0.01575$ & $0.0315$ & $0.0157$ & $0.0315$ & $-0.01565$ & $0.03121$ \\
+$0.1$ & $0.1575$ & $\pm0.1575$ & $0.315$ & $0.1532$ & $0.3142$ & $-0.1494$ & $0.2913$ \\
+$0.199$ & $0.3118$ & $\pm0.3118$ & $0.6236$ & $0.2967$ & $0.6187$ & $-0.2846$ & $0.5464$ \\
+$0.801$ & $1.003$ & $\pm1.003$ & $2.005$ & $1.006$ & $2.087$ & $-0.9693$ & $1.866$ \\
+$0.95$ & $1.058$ & $\pm1.058$ & $2.115$ & $1.058$ & $2.139$ & $-1.046$ & $2.066$ \\
+\bottomrule
+\end{tabular}
+
+% ---- Table 3 (tab:delta-gdp) ----
+\begin{tabular}{c c cc c}
+\toprule
+$q$ & $\widehat{\Delta}$ under $P$ & $\widehat{\Delta}$ under $Q$ & Final $\widehat{\Delta}$ & $\sqrt{2B}$-GDP \\
+\midrule
+$0.01$ & $0.003533$ & $0.003377$ & $0.003533$ & $0.1775$ \\
+$0.1$ & $0.01228$ & $0.0145$ & $0.0145$ & $0.5612$ \\
+$0.199$ & $0.01862$ & $0.02584$ & $0.02584$ & $0.7897$ \\
+$0.801$ & $0.006391$ & $0.01461$ & $0.01461$ & $1.416$ \\
+$0.95$ & $0.001889$ & $0.004735$ & $0.004735$ & $1.454$ \\
+\bottomrule
+\end{tabular}
+
+% ---- caption numbers, per figure ----
+% q=0.01 (a)--(b) Under P: halts 100.00\%, mean 1111.2 steps (11.11 epochs), PLD mean 0.0157, variance 0.0315, empirical Delta 0.003533
+% q=0.01 (c)--(d) Under Q: halts 100.00\%, mean 1111.2 steps (11.11 epochs), PLD mean -0.01565, variance 0.03121, empirical Delta 0.003377
+% q=0.1 (a)--(b) Under P: halts 98.87\%, mean 113.1 steps (11.31 epochs), PLD mean 0.1532, variance 0.3142, empirical Delta 0.01228
+% q=0.1 (c)--(d) Under Q: halts 98.80\%, mean 113.1 steps (11.31 epochs), PLD mean -0.1494, variance 0.2913, empirical Delta 0.0145
+% q=0.199 (a)--(b) Under P: halts 99.24\%, mean 58.0 steps (11.53 epochs), PLD mean 0.2967, variance 0.6187, empirical Delta 0.01862
+% q=0.199 (c)--(d) Under Q: halts 99.13\%, mean 58.0 steps (11.54 epochs), PLD mean -0.2846, variance 0.5464, empirical Delta 0.02584
+% q=0.801 (a)--(b) Under P: halts 98.61\%, mean 14.8 steps (11.85 epochs), PLD mean 1.006, variance 2.087, empirical Delta 0.006391
+% q=0.801 (c)--(d) Under Q: halts 98.06\%, mean 14.8 steps (11.88 epochs), PLD mean -0.9693, variance 1.866, empirical Delta 0.01461
+% q=0.95 (a)--(b) Under P: halts 99.98\%, mean 11.8 steps (11.22 epochs), PLD mean 1.058, variance 2.139, empirical Delta 0.001889
+% q=0.95 (c)--(d) Under Q: halts 99.97\%, mean 11.9 steps (11.29 epochs), PLD mean -1.046, variance 2.066, empirical Delta 0.004735
